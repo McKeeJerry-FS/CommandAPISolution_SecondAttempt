@@ -34,13 +34,23 @@ public class CommandsController : ControllerBase
         return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commandItems));
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("{id}", Name="GetCommandById")]
     public ActionResult<IEnumerable<CommandReadDto>> GetCommandById(int id){
         var commandItem = _repo.GetCommandById(id);
         if (commandItem is null){
             return NotFound();
         }
         return Ok(_mapper.Map<CommandReadDto>(commandItem));
+    }
+
+    [HttpPost]
+    public ActionResult<CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto){
+        var commandModel = _mapper.Map<Command>(commandCreateDto);
+        _repo.CreateCommand(commandModel);
+        _repo.SaveChanges();
+
+        var commandReadDto = _mapper.Map<CommandReadDto>(commandModel);
+        return CreatedAtRoute(nameof(GetCommandById), new { Id = commandReadDto.Id}, commandReadDto);
     }
 
 }
