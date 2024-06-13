@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
+    "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
+    "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\src\\CommandAPI\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\src\\CommandAPI\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
-        "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\obj\\",
+        "projectPath": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\src\\CommandAPI\\CommandAPI.csproj",
+        "packagesPath": "C:\\Users\\jmckee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\src\\CommandAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jmckee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +45,40 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.ASpNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.ASpNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,25 +98,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
+    "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
         "projectName": "CommandAPI.Tests",
-        "projectPath": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
-        "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\test\\CommandAPI.Tests\\obj\\",
+        "projectPath": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\test\\CommandAPI.Tests\\CommandAPI.Tests.csproj",
+        "packagesPath": "C:\\Users\\jmckee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\test\\CommandAPI.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jmckee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +127,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj": {
-                "projectPath": "C:\\Users\\jerry\\source\\repos\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj"
+              "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\src\\CommandAPI\\CommandAPI.csproj": {
+                "projectPath": "C:\\Users\\jmckee\\Desktop\\Personally Created Project\\CommandAPISolution_SecondAttempt\\src\\CommandAPI\\CommandAPI.csproj"
               }
             }
           }
@@ -155,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
