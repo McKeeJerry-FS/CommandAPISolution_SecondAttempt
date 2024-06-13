@@ -100,3 +100,7 @@ C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\obj\Debug\net8.0\C
 C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\obj\Debug\net8.0\CommandAPI.csproj.Up2Date
 C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\jerry\source\repos\CommandAPISolution\src\CommandAPI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

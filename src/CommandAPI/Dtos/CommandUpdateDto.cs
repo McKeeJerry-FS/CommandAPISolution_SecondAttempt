@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CommandAPI;
+namespace CommandAPI.Dtos;
 
-public class CommandCreateDto
+public class CommandUpdateDto
 {
     [Required]
     [MaxLength(250)]
@@ -10,5 +10,5 @@ public class CommandCreateDto
     [Required]
     public string Platform { get; set; } = string.Empty;
     [Required]
-    public string CommandLine { get; set; } = string.Empty; 
+    public string CommandLine { get; set; } = string.Empty;
 }
