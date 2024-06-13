@@ -84,4 +84,15 @@ public class CommandsController : ControllerBase
         return NoContent();
     }
 
+    [HttpDelete("{id}")]
+    public ActionResult DeleteCommand(int id){
+        var commandModelFromRepo = _repo.GetCommandById(id);
+        if(commandModelFromRepo is null){
+            return NotFound();
+        }
+        _repo.DeleteCommand(commandModelFromRepo);
+        _repo.SaveChanges();
+        return NoContent();
+    }
+
 }
