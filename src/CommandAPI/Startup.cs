@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Hosting;
 using CommandAPI.Data.Interfaces;
 using CommandAPI.Data;
+using Npgsql;
 
 namespace CommandAPI;
 
@@ -19,8 +20,13 @@ public class Startup
     }
 
     public void ConfigureServices(IServiceCollection services){
+        var builder = new NpgsqlConnectionStringBuilder();
+        builder.ConnectionString = _config.GetConnectionString("PostgreSqlConnection");
+        builder.Username = _config["UserId"];
+        builder.Password = _config["Password"];
+
         // Section 1: Add Code Below
-        services.AddDbContext<CommandDbContext>(options => options.UseNpgsql(_config.GetConnectionString("PostgreSQLConnection")));
+        services.AddDbContext<CommandDbContext>(options => options.UseNpgsql(builder.ConnectionString));
 
         services.AddControllers();
         //services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
