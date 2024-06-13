@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using CommandAPI.Data.Interfaces;
 using CommandAPI.Data;
 using Npgsql;
+using AutoMapper;
 
 namespace CommandAPI;
 
@@ -29,6 +30,7 @@ public class Startup
         services.AddDbContext<CommandDbContext>(options => options.UseNpgsql(builder.ConnectionString));
 
         services.AddControllers();
+        services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         //services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
         services.AddScoped<ICommandAPIRepo, SqlCommandsAPIRepo>();
     }
