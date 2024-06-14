@@ -116,3 +116,5 @@ c:\Users\jerry\source\repos\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\n
 c:\Users\jerry\source\repos\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net8.0\Npgsql.dll
 c:\Users\jerry\source\repos\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 c:\Users\jerry\source\repos\CommandAPISolution\test\CommandAPI.Tests\obj\Debug\net8.0\CommandAPI.Tests.sourcelink.json
+C:\Users\jerry\source\repos\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\jerry\source\repos\CommandAPISolution\test\CommandAPI.Tests\bin\Debug\net8.0\Moq.dll
