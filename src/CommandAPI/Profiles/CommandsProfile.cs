@@ -2,7 +2,7 @@
 using CommandAPI.Dtos;
 using CommandAPI.Models;
 
-namespace CommandAPI;
+namespace CommandAPI.Profiles;
 
 public class CommandsProfile : Profile
 {
